@@ -46,3 +46,15 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# My modest, preexisting .bash_profile
+# export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+# [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+
+# export NVM_DIR="$HOME/.nvm"
+# . "$(brew --prefix nvm)/nvm.sh"
+
+# source /Users/lluarteg/.rvm/scripts/rvm
